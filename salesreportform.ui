@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SalesReportForm</class>
+ <widget class="QMainWindow" name="SalesReportForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sales Report</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow{
+background-color: rgb(61, 53, 92);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>10</y>
+      <width>103</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <item>
+     <property name="text">
+      <string>Day 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Day 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Day 3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Day 4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Day 5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Day 6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Day 7</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>10</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+text-align: center;
+background-color: black;
+color: white;
+border: 1px solid white;
+border-radius: 15px;
+font: 17px;
+width:1 5px;
+height: 8px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Find</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>781</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableView{
+background-color: #000;
+color: #fff;
+font-size: 10px;
+border: 1px solid white;
+border-radius: 5px;
+margin: 10px;
+padding: 10px;
+}</string>
+    </property>
+    <property name="editTriggers">
+     <set>QAbstractItemView::NoEditTriggers</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>10</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <item>
+     <property name="text">
+      <string>All Types Of Members</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Regular Members</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Executive Members</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
